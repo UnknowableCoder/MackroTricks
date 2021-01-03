@@ -14,6 +14,7 @@ To use `Mad<ro Trid<s`, the user must begin by including the library,
 
 ```C
 #include "mackro_tricks.h"
+```
 
 This will simply make the macros available for use in subsequent code.
 
@@ -21,6 +22,7 @@ Since all the macros are prefixed by `MACKRO_`, there should be no clashes with 
 
 ```C
 #include "mackro_tricks_undef.h"
+```
 
 Obviously, for any of this to work, both files must be placed in a location where the compiler or build system knows where to look for header files, but, given the diversity of choices in that area, the author will relay the responsibility of ensuring that to the user (or whomever set up the build enviroment the user is working in).
 
