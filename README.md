@@ -1,6 +1,6 @@
 # Introduction
 
-MackroTricks (that the author prefers to style `Mad<ro Trid<s`, taking advantage of improper keming especially in monospaced fonts) is a collection of useful macros to enable binary arithmetic and cycles in preprocessing time, up to (almost) arbitrary sizes.
+Mackro Tricks (that the author prefers to style `Mad<ro Trid<s`, taking advantage of improper keming especially in monospaced fonts) is a collection of useful macros to enable binary arithmetic and cycles in preprocessing time, up to (almost) arbitrary sizes.
 
 # Requirements
 
@@ -8,7 +8,9 @@ Due to the way `Mad<ro Trid<s` is implemented, the preprocessor must support var
 
 Thus, and to the author's best knowledge, it should work in any compiler that supports C99 or C++11. The users are kindly encouraged to report any problems to the author by submitting an issue to this repository.
 
-# Using MackroTricks
+The author must point out that the current version of the C preprocessor implemented in __MSVC does not fully follow the standard__ since variadic macros are expanded to a single preprocessing token, which means that this library does not work and there's close to nothing (short of scrapping this whole thing) that can be done to fix it. 
+
+# Using Mackro Tricks
 
 To use `Mad<ro Trid<s`, the user must begin by including the library,
 
